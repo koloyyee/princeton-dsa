@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week_01/Chapter_1.1_ProgrammingModel/Chapter_1.1_ProgrammingModel.iml" filepath="$PROJECT_DIR$/Week_01/Chapter_1.1_ProgrammingModel/Chapter_1.1_ProgrammingModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week_01/Chapter_1.2_Data_Abstraction/Chapter_1.2_Data_Abstraction.iml" filepath="$PROJECT_DIR$/Week_01/Chapter_1.2_Data_Abstraction/Chapter_1.2_Data_Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week_01/Week_01.iml" filepath="$PROJECT_DIR$/Week_01/Week_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/princeton-dsa.iml" filepath="$PROJECT_DIR$/.idea/princeton-dsa.iml" />
+    </modules>
+  </component>
+</project>
