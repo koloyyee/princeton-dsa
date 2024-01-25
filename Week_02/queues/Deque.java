@@ -55,7 +55,7 @@ public class Deque<Item> implements Iterable<Item> {
     // add the item to the front
     public void addFirst(Item item) {
         if (item == null) throw new IllegalArgumentException();
-        Node newHead = new Node(item);
+        Node newHead = new Node<>(item);
         if (isEmpty()) {
             head = newHead;
             tail = head;
@@ -71,7 +71,7 @@ public class Deque<Item> implements Iterable<Item> {
     // add the item to the back
     public void addLast(Item item) {
         if (item == null) throw new IllegalArgumentException();
-        Node newTail = new Node(item);
+        Node newTail = new Node<>(item);
         if (isEmpty()) {
             tail = newTail;
             head = tail;
@@ -81,6 +81,7 @@ public class Deque<Item> implements Iterable<Item> {
             newTail.prev = tail;
             tail = newTail;
         }
+        n++;
     }
 
 
@@ -90,12 +91,32 @@ public class Deque<Item> implements Iterable<Item> {
      **/
     // remove and return the item from the front
     public Item removeFirst() {
-        return null;
+        Item item = head.item;
+        if (isEmpty()) {
+            head = null;
+            tail = null;
+        }
+        else {
+            head.next.prev = null;
+            head = head.next;
+        }
+        n--;
+        return item;
     }
 
     // remove and return the item from the back
     public Item removeLast() {
-        return null;
+        Item item = tail.item;
+        if (isEmpty()) {
+            tail = null;
+            head = null;
+        }
+        else {
+            tail.prev.next = null;
+            tail = tail.prev;
+        }
+        n--;
+        return item;
     }
 
     // return an iterator over items in order from front to back
@@ -139,6 +160,10 @@ public class Deque<Item> implements Iterable<Item> {
         d.addFirst(1);
         d.addFirst(3);
         d.addLast(2);
+        System.out.println(d.toString());
+        d.removeFirst();
+        System.out.println(d.toString());
+        d.removeLast();
         System.out.println(d.toString());
 
     }

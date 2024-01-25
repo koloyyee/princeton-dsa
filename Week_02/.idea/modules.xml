@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" filepath="$PROJECT_DIR$/Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview_Questions/Interview_Questions.iml" filepath="$PROJECT_DIR$/Interview_Questions/Interview_Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" filepath="$PROJECT_DIR$/Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week_02.iml" filepath="$PROJECT_DIR$/Week_02.iml" />
+    </modules>
+  </component>
+</project>

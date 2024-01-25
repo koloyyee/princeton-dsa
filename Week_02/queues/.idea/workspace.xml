@@ -5,58 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/hello.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/princeton-dsa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/src/Point2DClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_01/Week_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeInsightSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lift.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/AnnotationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Algorithms__Part_I.xml.old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/checkstyle-coursera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/checkstyle-suppressions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.lift/spotbugs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms, Part I.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.1_ProgrammingModel/Chapter_1.1_ProgrammingModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.1_ProgrammingModel/Chapter_1.1_ProgrammingModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/Chapter_1.2_Data_Abstraction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/Chapter_1.2_Data_Abstraction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/src/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.2_Data_Abstraction/src/Point2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_01/Chapter_1.3_Stack_Bag_Queue/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/Chapter_1.3_Stack_Bag_Queue/src/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/Interview_Questions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/StackWithMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/TwoStacksQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/WhyNoGenericArrays.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeInsightSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/dictionaries/lift.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/file.template.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/includes/File Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/AnnotationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/Algorithms__Part_I.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/Algorithms__Part_I.xml.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/libraries/algs4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/saveactions_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/checkstyle-coursera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/spotbugs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Algorithms, Part I.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Permutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/RandomizedQueue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +95,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="106" />
     <option name="y" value="23" />
@@ -146,8 +142,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_02_Local/queues",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "/Users/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_02/queues",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
