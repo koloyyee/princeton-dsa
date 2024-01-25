@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 
 public class Deque<Item> implements Iterable<Item> {
 
-    static class Node<Item> {
+    private static class Node<Item> {
         private Node<Item> prev;
         private Item item;
         private Node<Item> next;
@@ -43,13 +43,15 @@ public class Deque<Item> implements Iterable<Item> {
 
     // add the item to the front
     public void addFirst(Item item) {
+        if (item == null) throw new IllegalArgumentException("item cannot be null");
         Node<Item> newNode = new Node<>(item);
         if (isEmpty()) {
             head = newNode;
             tail = head;
-        } else {
-            newNode.next = head;
+        }// I had my bug here
+        else {
             head.prev = newNode;
+            newNode.next = head;
             head = newNode;
         }
         size++;
@@ -57,13 +59,14 @@ public class Deque<Item> implements Iterable<Item> {
 
     // add the item to the back
     public void addLast(Item item) {
+        if (item == null) throw new IllegalArgumentException("item cannot be null");
         Node<Item> newNode = new Node<>(item);
         if (isEmpty()) {
             tail = newNode;
             head = tail;
-        } else {
+        } // I had my bug here
+        else {
             tail.next = newNode;
-            newNode.next = null;
             newNode.prev = tail;
             tail = newNode;
         }
@@ -77,7 +80,13 @@ public class Deque<Item> implements Iterable<Item> {
         }
         Item item = head.item;
         head = head.next;
-        head.prev = null;
+        if (head != null) {
+
+            head.prev = null;
+        }// I had my bug here
+        else {
+            tail = null;
+        }
         size--;
         return item;
     }
@@ -88,19 +97,23 @@ public class Deque<Item> implements Iterable<Item> {
             throw new NoSuchElementException();
         }
         Item item = tail.item;
-
         tail = tail.prev;
-        tail.next = null;
+        if (tail != null) {
+            tail.next = null;
+        }// I had my bug here
+        else {
+            head = null;
+        }
         size--;
         return item;
     }
 
     // return an iterator over items in order from front to back
     public Iterator<Item> iterator() {
-        return new LLIter(head);
+        return new LLIter<>(head);
     }
 
-    class LLIter implements Iterator {
+    private class LLIter<Item> implements Iterator<Item> {
         private Node<Item> current;
 
         LLIter(Node<Item> first) {
@@ -123,21 +136,12 @@ public class Deque<Item> implements Iterable<Item> {
 
     // unit testing (required)
     public static void main(String[] args) {
-        Deque<Integer> d = new Deque();
+        Deque<Integer> d = new Deque<>();
         d.addFirst(1);
-        d.addFirst(3);
-        d.addFirst(5);
-        d.addLast(2);
-        d.addLast(4);
         for (int i : d) {
             System.out.println(i);
         }
         d.removeFirst();
-        d.removeLast();
-        System.out.println();
-        for (int i : d) {
-            System.out.println(i);
-        }
 
     }
 

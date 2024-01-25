@@ -4,13 +4,14 @@
  *  Description:
  **************************************************************************** */
 
+import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class RandomizedQueue<Item> implements Iterable<Item> {
-    static final int INIT_CAP = 8;
+    private static final int INIT_CAP = 8;
     private int head;
     private int tail;
     private int size;
@@ -36,15 +37,15 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // add the item
     public void enqueue(Item item) {
+        if (item == null) throw new IllegalArgumentException("item cannot be null");
         if (size == q.length) {
             resize(size * 2);
         }
-        q[tail++] = item;
         if (tail == q.length) {
             tail = 0;
         }
+        q[tail++] = item;
         size++;
-        shuffleItem();
     }
 
     // remove and return a random item
@@ -52,12 +53,11 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         if (isEmpty()) {
             throw new NoSuchElementException();
         }
-
-        Item item = q[--size];
-        if (size > 0 && size == q.length / 4) {
-            resize(q.length / 2);
-        }
-        q[size] = null;
+        int randInt = StdRandom.uniformInt(size);
+        Item item = q[randInt];
+        q[randInt] = q[--tail];
+        q[tail] = null;
+        size--;
         return item;
     }
 
@@ -71,11 +71,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return item;
     }
 
-    public boolean validate(int index) {
-        return index < 0 || index > size;
-    }
-
-    public void resize(int newCap) {
+    private void resize(int newCap) {
         if (newCap < size)
             throw new AssertionError();
         Item[] copy = (Item[]) new Object[newCap];
@@ -87,20 +83,12 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         tail = size;
     }
 
-    public void shuffleItem() {
-        int randInt = StdRandom.uniformInt(size);
-        Item temp = q[randInt];
-        q[randInt] = q[size - 1];
-        q[size - 1] = temp;
-
-    }
-
     // return an independent iterator over items in random order
     public Iterator<Item> iterator() {
-        return new LLIter();
+        return new LLIter<>();
     }
 
-    private class LLIter implements Iterator {
+    private class LLIter<Item> implements Iterator<Item> {
 
         private int current;
 
@@ -115,9 +103,10 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
-            if (!hasNext())
+            if (!hasNext()) {
                 throw new NoSuchElementException();
-            Item item = q[(current + head) % q.length];
+            }
+            Item item = (Item) q[(current + head) % q.length];
             current++;
             return item;
         }
@@ -126,19 +115,14 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // unit testing (required)
     public static void main(String[] args) {
-        RandomizedQueue<Integer> r = new RandomizedQueue();
-        r.enqueue(1);
-        r.enqueue(2);
-        r.enqueue(3);
-        r.enqueue(4);
-
-        for (int i : r) {
-            System.out.println(i);
-        }
-        System.out.println("-------------");
-        r.dequeue();
-        for (int i : r) {
-            System.out.println(i);
+        int n = 5;
+        RandomizedQueue<Integer> queue = new RandomizedQueue<Integer>();
+        for (int i = 0; i < n; i++)
+            queue.enqueue(i);
+        for (int a : queue) {
+            for (int b : queue)
+                StdOut.print(a + "-" + b + " ");
+            StdOut.println();
         }
     }
 
