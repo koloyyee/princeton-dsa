@@ -5,54 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Self_Stack_Queue_Bag/Self_Stack_Queue_Bag.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/Interview_Questions.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/StackWithMax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/TwoStacksQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/Interview_Questions/src/WhyNoGenericArrays.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeInsightSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/dictionaries/lift.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/externalDependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/file.template.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/includes/File Header.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/AnnotationType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Class.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Enum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/Interface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/fileTemplates/internal/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/findbugs-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/Algorithms__Part_I.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/Algorithms__Part_I.xml.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/libraries/algs4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/saveactions_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/checkstyle-coursera.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/checkstyle-suppressions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/.lift/spotbugs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Algorithms, Part I.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Deque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/Permutation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week_02_Local/queues/RandomizedQueue.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/percolation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/percolation/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +35,7 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -88,15 +43,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.sdkman/candidates/java/21-amzn/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/StdOut.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="106" />
@@ -138,23 +89,57 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_02/queues",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Deque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomizedQueue.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_02/queues&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Deque">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Deque" />
+        <item itemvalue="Application.RandomizedQueue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-657b72ed" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <created>1705756627540</created>
+      <created>1706122839498</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705756627540</updated>
+      <updated>1706122839498</updated>
     </task>
     <servers />
   </component>
@@ -193,19 +178,5 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="5" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.StackOverflowError" package="java.lang" />
-          <option name="timeStamp" value="7" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

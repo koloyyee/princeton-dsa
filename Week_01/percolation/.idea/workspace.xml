@@ -5,32 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chapter_1.4_Analysis_of_Algorithms/src/BitonicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/Chapter_1.3_Stack_Bag_Queue.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Autoboxing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Bag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Evaluate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/FixedCapacityStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/FixedCapacityStackOfStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/LinkedStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/LinkedStackOfStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/ResizingArrayBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/ResizingArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/ResizingArrayStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/ResizingArrayStackWithReflection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/Stats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/exercises/CopyOfStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter_1.3_Stack_Bag_Queue/src/exercises/Josephus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,17 +91,17 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_01/Chapter_1.5_Union_Find&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/loyyeeko/Code/Personal/Algorithms/princeton-dsa/Week_02/queues",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
