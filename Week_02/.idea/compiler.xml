@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="1_Elementary_Sorts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="1_Elementary_Sorts" target="21" />
       <module name="Chapter_2.1_Elementary_Sorts" target="21" />
     </bytecodeTargetLevel>
   </component>
