@@ -150,7 +150,7 @@ public class WeightedQuickUnionUF {
         // make smaller root point to larger one
         if (size[rootP] < size[rootQ]) {
             parent[rootP] = rootQ;
-            size[rootQ] += size[rootP];
+            size[rootQ] += size[rootP]; // small (p) attach to larger (q)
         }
         else {
             parent[rootQ] = rootP;
